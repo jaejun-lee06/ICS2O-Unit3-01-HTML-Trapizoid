@@ -4,7 +4,7 @@
 */
 
 body {
-  background-color: #fff7a3
+  background-color: #fff7a3;
 }
 
 mdl-layout__content {
@@ -28,6 +28,10 @@ img {
   right: 160px;
 }
 
-h4, h5 {
-  margin: 20pt
+h4{
+  margin: 20pt;
+}
+
+h5 {
+  margin: 20pt;
 }
