@@ -4,15 +4,16 @@
 
 'use strict'
 /**
- * This function calculates area of trianlge.
+ * This function calculates area of Traoezoid.
  */
 function calculate () {
   // input
-  const base = parseInt(document.getElementById('base-of-triangle').value)
-  const height = parseInt(document.getElementById('height-of-triangle').value)
+  const aBase= parseInt(document.getElementById('a-base').value)
+  const bBase = parseInt(document.getElementById('b-base').value)
+  const height = parseInt(document.getElementById('height').value)
 
   // process
-  const area = (1 / 2) * base * height
+  const area = ((aBase+bBase) / 2) * height
 
   // output
   document.getElementById('area').innerHTML = 'Area is: ' + area + ' cm²'

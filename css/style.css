@@ -6,23 +6,28 @@
 body {
   background-color: #fff7a3
 }
+
 mdl-layout__content {
   padding-left: 15pt;
   padding-right: 15pt;
   padding-top: 15pt;
 }
 
-p {
+p1 {
   color: black;
   font-family: Helvetica, Arial, sans-serif;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   padding-top: 5pt;
+  line-height: 1pt;
+  margin: 20pt
 }
 
 img {
- float:center;
+  position: absolute;
+  top: 80px;
+  right: 160px;
 }
 
-h10 {
-  
+h4, h5 {
+  margin: 20pt
 }

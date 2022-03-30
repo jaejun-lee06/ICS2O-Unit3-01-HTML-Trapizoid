@@ -28,14 +28,14 @@
         <table>
           <tr>
               <h4>Formula</h4>
-              <h5>A = [(a +b ) / 2] x h</h5>
+              <h5>A = [(a + b ) / 2] x h</h5>
               <img src="./img/trapezoid.png" alt="trapezoid" width="30%" height="auto" />
-              <h10> Please enter integers for dimensions:</h10>
+              <h5> Please enter integers for dimensions: </h5>
           </tr>
         </table>
         <!-- Simple Textfield -->
         <form action="#">
-          <p>a base</p>
+          <p1>a base(cm): </p1>
           <div class="mdl-textfield mdl-js-textfield">
             <input
               class="mdl-textfield__input"
@@ -49,7 +49,7 @@
         </form>
         <!-- Simple Textfield -->
         <form action="#">
-          <p>b base</p>
+          <p1>b base(cm): </p1>
           <div class="mdl-textfield mdl-js-textfield">
             <input
               class="mdl-textfield__input"
@@ -63,15 +63,15 @@
         </form>
         <!-- Numeric Textfield -->
         <form action="#">
-          <p>Height</p>
+          <p1>height(cm): </p1>
           <div class="mdl-textfield mdl-js-textfield">
             <input
               class="mdl-textfield__input"
               type="text"
               pattern="-?[0-9]*(\.[0-9]+)?"
-              id="height-of-triangle"
+              id="height"
             />
-            <label class="mdl-textfield__label" for="height-of-triangle"></label>
+            <label class="mdl-textfield__label" for="height"></label>
             <span class="mdl-textfield__error">Input is not a number!</span>
           </div>
         </form>
@@ -80,7 +80,7 @@
           class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent"
           onclick="calculate()"
         >
-          Calculate
+          Calculate Area
         </button>
         <br />
         <p>
